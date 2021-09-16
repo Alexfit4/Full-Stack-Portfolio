@@ -71,7 +71,7 @@ export default function ResponsiveNavBar() {
 										target='_blank'
 										className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
 										href='https://github.com/Alexfit4'>
-										<i className='fab fa-facebook-square text-lg leading-lg text-white opacity-75'></i>
+										<i className='fab fa-github text-lg leading-lg text-white opacity-75'></i>
 										<span className='ml-2'>GITHUB</span>
 									</a>
 								</li>
@@ -80,7 +80,7 @@ export default function ResponsiveNavBar() {
 										target='_blank'
 										className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
 										href='https://www.linkedin.com/in/amir-ashtiany-4a25421b9/'>
-										<i className='fab fa-twitter text-lg leading-lg text-white opacity-75'></i>
+										<i className='fab fa-linkedin-in text-lg leading-lg text-white opacity-75'></i>
 										<span className='ml-2'>linkedin</span>
 									</a>
 								</li>
@@ -89,7 +89,7 @@ export default function ResponsiveNavBar() {
 										target='_blank'
 										className='px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75'
 										href={Resume}>
-										<i className='fab fa-pinterest text-lg leading-lg text-white opacity-75'></i>
+										<i className='far fa-file text-lg leading-lg text-white opacity-75'></i>
 										<span className='ml-2'>RESUME</span>
 									</a>
 								</li>
