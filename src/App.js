@@ -5,7 +5,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import '@material-tailwind/react/tailwind.css';
 import Contact from './Components/Contact/Contact';
 
+
 function App() {
+
 	return (
 		<Router>
 			<div className='App'>

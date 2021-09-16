@@ -9,8 +9,8 @@ export default function Contact() {
 	return (
 		<div id='contact' className=''>
 			<div className='flex justify-center items-center h-screen w-full'>
-				<div className='contact-content w-1/2 bg-white rounded md:border-2 border-2  shadow-2xl p-8 m-4 '>
-					<h1 className='block text-center text-4xl font-bold tracking-widest mb-10 mb-6'>
+				<div className='contact-content sm:w-1/2 md:w-1/2  bg-white rounded md:border-2 border-2 shadow-2xl p-8 m-4 '>
+					<h1 className='block text-center md:text-4xl font-bold tracking-widest mb-10 mb-6'>
 						CONTACT ME
 					</h1>
 					<form onSubmit={handleSubmit}>
@@ -75,7 +75,7 @@ export default function Contact() {
 							/>
 						</div>
 						<button
-							className='block border text-grey-800 text-grey-800 text-black uppercase text-lg mx-auto p-4 rounded'
+							className='block border text-grey-800 text-grey-800 text-black uppercase md:text-lg md:mx-auto mx-auto md:p-4 rounded'
 							type='submit'
 							disabled={state.submitting}>
 							Submit

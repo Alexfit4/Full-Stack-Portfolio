@@ -5,11 +5,12 @@ import SQL from '../Assets/SQL.png';
 import MongoDB from '../Assets/mongoDb.png';
 import BigThree from '../Assets/BigThree.png';
 import NodeJS from '../Assets/nodejs.png';
-export default function About() {
+export default function AboutIpad() {
+
 	return (
 		<div
 			id='about'
-			className='about-content  md:rounded-lg rounded-lg md:border-2 border-2  h-5/6 lg:mx-36 md:mx-10 sm:mx-80 shadow-2xl'>
+			className='about-content  md:rounded-lg rounded-lg md:border-2 border-2  h-5/6  shadow-2xl'>
 			<div className='container mx-auto text-center mt-20 '>
 				<div>
 					<h1 className='text-center text-4xl text-black font-bold'>

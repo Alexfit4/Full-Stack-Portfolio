@@ -4,7 +4,9 @@ import { projects } from './ProjectData';
 
 export default function Projects() {
 	return (
-		<div id="project" className='about-content md:rounded-lg rounded-lg md:border-2 border-2 md:mx-80 shadow-2xl mt-10 py-6 '>
+		<div
+			id='project'
+			className='about-content md:rounded-lg rounded-lg md:border-2 border-2 lg:mx-36 md:mx-10 sm:mx-80  shadow-2xl mt-10 py-6 '>
 			<div className='text-center text-4xl font-bold tracking-widest mb-10 '>
 				<h1>PROJECTS</h1>
 			</div>

@@ -6,8 +6,23 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 import { Link } from 'react-scroll';
 import Resume from '../Assets/Ashtiany_resfinal copy.pdf';
+import { MatchMediaHOC } from 'react-match-media';
+import AboutIpad from '../About/AboutIpad';
 export default function ResponsiveNavBar() {
 	const [navbarOpen, setNavbarOpen] = useState(false);
+		    const ipadView = () => {
+					<AboutIpad />;
+				};
+
+				const ComponentForSmallScreen = MatchMediaHOC(
+					ipadView,
+					'(max-width: 500px)'
+				);
+
+				const ComponentForMediumScreen = MatchMediaHOC(
+					About,
+					'(min-width: 800px)'
+				);
 	return (
 		<Router>
 			<>
